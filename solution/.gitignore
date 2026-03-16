@@ -1,26 +1,21 @@
-# Add patterns for files you don't want to commit
-# Example patterns below - uncomment and modify as needed:
-
-# Python
-# __pycache__/
-# *.pyc
-# .venv/
-# venv/
-
 # Node.js
-# node_modules/
-# package-lock.json
-
-# Java
-# *.class
-# target/
-# .gradle/
+node_modules/
+package-lock.json
+npm-debug.log*
 
 # Build artifacts
-# build/
-# dist/
-# out/
+dist/
+out/
 
 # IDE files
-# .vscode/
-# .idea/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Analysis output (local dev only)
+scripts/output/
+*.analysis.json
