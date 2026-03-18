@@ -1,0 +1,17 @@
+{
+  "name": "box-box-box-simulator",
+  "version": "1.0.0",
+  "description": "F1 Race Simulator - Box Box Box Challenge",
+  "main": "race_simulator.js",
+  "scripts": {
+    "start": "node race_simulator.js",
+    "analyze": "node scripts/analyze.js",
+    "validate": "node scripts/validate.js",
+    "test": "node scripts/validate.js"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": ["f1", "race-simulator", "strategy"],
+  "license": "MIT"
+}
